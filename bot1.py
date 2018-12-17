@@ -1,12 +1,10 @@
 import requests
 import datetime
 
-token = '724509638:AAE8rCOFlau4jqf03KbQykdoa3dDegQMTs'
 class BotHandler:
 
     def __init__(self, token):
-        self.token = '724509638:AAE8rCOFlau4jqf03KbQykdoa3dDegQMTs'
-        self.api_url = "https://api.telegram.org/bot724509638:AAE8rCOFlau4jqf03KbQykdoa3dDegQMTs/".format(token)
+        self.token = '724/".format(token)
 
     def get_updates(self, offset=None, timeout=30):
         method = 'getUpdates'
